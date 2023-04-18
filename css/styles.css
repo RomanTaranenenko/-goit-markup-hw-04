@@ -50,7 +50,8 @@ color: var(--brands-color);
 text-decoration: none;
 margin-right: 76px;
 }
-.logo-span{color: var(--brand-color)}
+.logo-span{
+    color: var(--brand-color)}
 
  /* navigation */
 
@@ -100,7 +101,7 @@ padding-bottom: 24px;}
 .poster{background-color: var(--brand-color);
     padding-bottom: 188px;
     padding-top: 188px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/images.studio/Poster/people-office\ 1\ \(4\)\ \(1\).jpg) ;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/images.studio/Poster/people-office.jpg) ;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -225,7 +226,10 @@ padding: 120px 0;
                 border-radius: 0px 0px 4px 4px;
          }
          .card{
-            padding: 32px 16px 32px 16px;
+            padding-top: 32px;
+            padding-bottom: 32px;
+            padding-left: 16px;
+            padding-right: 16px;
             border-radius: 0px 0px 4px 4px;
             margin-bottom: 8px;
          }
@@ -249,7 +253,9 @@ padding: 120px 0;
         .social-link:hover,
         .social-link:focus{
             background-color: var(--hover-color)
-
+                 }
+                 .social-icon{
+                    fill: var(--card-color)
                  }
 
 
@@ -346,12 +352,12 @@ display: flex;
   
         font-weight: 500;
         font-size: 16px;
-        line-height: 1.5px ;
         color: var(--white-color);
         letter-spacing: 0.02em;
         min-width: 96px;
         min-height: 24px;
-        margin-bottom: 16px
+        margin-bottom: 16px;
+        line-height: 1.5;
         
 }
 .footer-items>.social-link:hover,
