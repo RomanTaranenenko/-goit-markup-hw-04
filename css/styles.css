@@ -186,7 +186,7 @@ padding: 120px 0;
     .htitle{
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.11;
+        line-height: 1.1;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: var(--brand-color);
@@ -217,19 +217,19 @@ padding: 120px 0;
         }
         .contact.text{
             text-align: center;
+            margin-bottom: 8px
+
         }
         .list-card{ background-color: var(--white-color);
             box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
                 border-radius: 0px 0px 4px 4px;
          }
          .card{
-            padding: 32px 16px 0 16px;
+            padding: 32px 16px 32px 16px;
             border-radius: 0px 0px 4px 4px;
             margin-bottom: 8px;
          }
-         .contact-social-container{
-            padding: 32px 0;
-         }
+        
          .social-list{
             display: flex;
             gap: 24px;
@@ -270,6 +270,7 @@ padding: 120px 0;
         
         .link-custom {
             display: flex;
+            color: #8e8f99;
             border: 1px solid #8E8F99;
            border-radius: 4px;
            justify-content: center;
@@ -281,7 +282,10 @@ padding: 120px 0;
           .link-custom:hover,
           .link-custom:focus{
             border: 1px solid var(--hover-color);
-            fill: var(--hover-color);
+            color: #404bbf;
+          }
+          .icon-customers{
+            fill: currentColor
           }
           
        
@@ -342,16 +346,20 @@ display: flex;
   
         font-weight: 500;
         font-size: 16px;
-        line-height: 1.5px;
+        line-height: 1.5px ;
         color: var(--white-color);
         letter-spacing: 0.02em;
         min-width: 96px;
         min-height: 24px;
+        margin-bottom: 16px
         
 }
 .footer-items>.social-link:hover,
 .footer-items>.social-link:focus{
     background-color: #31D0AA;
+}
+.icon-social{
+    fill:var(--card-color)
 }
 
 
@@ -382,10 +390,24 @@ display: flex;
             gap: var(--gap-size)
     }
     .list-btn:hover,
-    .list-btn:focus{background: var(--hover-color);
-         color: var(--white-color);
-        border: 1px solid transparent}
+    .list-btn:focus{
+background-color: var(--hover-color);
 
+         color: var(--white-color);
+        border: 1px solid transparent;
+    box-shadow:  0px 3px 1px rgba(0, 0, 0, 0.1),
+                 0px 2px 1px rgba(0, 0, 0, 0.08),
+                 0px 2px 2px rgba(0, 0, 0, 0.12);}
+
+.link-photolist{
+    display: block;
+
+}
+.link-photolist:hover,
+.link-photolist:focus{
+box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08),
+0px 1px 1px rgba(46, 47, 66, 0.16),
+0px 2px 1px rgba(46, 47, 66, 0.08);}
 
 /* Section PRt */
 .prf.section{
