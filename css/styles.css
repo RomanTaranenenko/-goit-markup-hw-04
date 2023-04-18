@@ -149,7 +149,7 @@ padding-bottom: 24px;}
 padding: 120px 0;
     }
     .info-container{
-        display: flex;
+        
         display: flex;
         gap: 24px;
      
@@ -171,6 +171,7 @@ padding: 120px 0;
     background: #F4F4FD;
         border-radius: 4px;
         min-height: 112px;
+        margin-bottom: 8px
    }
     .text{
     font-size: 16px;
@@ -226,11 +227,14 @@ padding: 120px 0;
             border-radius: 0px 0px 4px 4px;
             margin-bottom: 8px;
          }
+         .contact-social-container{
+            padding: 32px 0;
+         }
          .social-list{
             display: flex;
             gap: 24px;
             justify-content: center;
-            padding-bottom: 32px;
+            
            
          }
         .social-link{
