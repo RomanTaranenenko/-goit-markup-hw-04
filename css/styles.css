@@ -290,7 +290,7 @@ padding: 120px 0;
             border: 1px solid var(--hover-color);
           }
 .icon-customers{
-    fill:#8e8f99;
+    fill:currentColor;
 }
           .icon-customers:hover,
           .icon-customers:focus{
