@@ -286,15 +286,15 @@ padding: 120px 0;
             }
           .link-custom:hover,
           .link-custom:focus{
+            color: var(--hover-color);
             border: 1px solid var(--hover-color);
-           
           }
-          .icon-customers{
-           color: currentColor;
-          }
+.icon-customers{
+    fill:#8e8f99;
+}
           .icon-customers:hover,
           .icon-customers:focus{
-            color: var(--hover-color);
+            fill: var(--hover-color);
           }
           
        
