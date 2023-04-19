@@ -287,10 +287,14 @@ padding: 120px 0;
           .link-custom:hover,
           .link-custom:focus{
             border: 1px solid var(--hover-color);
-            color: #404bbf;
+           
           }
           .icon-customers{
-            fill: currentColor
+           color: currentColor;
+          }
+          .icon-customers:hover,
+          .icon-customers:focus{
+            color: var(--hover-color);
           }
           
        
